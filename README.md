@@ -12,7 +12,7 @@ Engineering Lead at **Tarjama Group** in Amman, Jordan, and a hands-on backend e
 distributed systems and high-availability services on Azure (AKS), AWS and Kubernetes, for enterprise and
 government platforms across the GCC and Levant.
 
-- 🏛️ **Government-grade delivery:** I own a translation platform for an Abu Dhabi public-sector entity end to end and lead a team of 6 engineers
+- 🏛️ **Enterprise-grade delivery:** I own a secure, high-volume platform end to end and lead a team of 6 engineers
 - 🤖 **Agentic AI pipeline:** built with LangChain and CrewAI, it processes 2M+ words a month, with ~40% less manual work and 60% faster jobs
 - ☁️ **Multi-tenant SaaS at scale:** Laravel + Node.js on AKS, serving 10,000+ concurrent users and 500k+ API requests a month at a 99.9% uptime SLA
 - 🚀 **Monolith to microservices:** cut deployment time from 45 min to under 10 min, with several deploys a week
