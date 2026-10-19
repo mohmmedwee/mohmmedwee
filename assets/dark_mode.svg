@@ -34,26 +34,29 @@ text, tspan {white-space: pre;}
 <tspan x="15" y="510">%%%%%%%%%%%%MMMMMl!!jjiKM%%%%KK%%%KK%M</tspan>
 </text>
 <text x="390" y="30" fill="#c9d1d9">
-<tspan x="390" y="30">mohmmedwee@eloustah ————————————————————————————————————————</tspan>
+<tspan x="390" y="30">alostah@tarjama ————————————————————————————————————————————</tspan>
 <tspan x="390" y="50"><tspan class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ......................................... </tspan><tspan class="value">macOS, Linux</tspan></tspan>
-<tspan x="390" y="70"><tspan class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">11 years, 10 months, 28 days</tspan></tspan>
-<tspan x="390" y="90"><tspan class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ...................................... </tspan><tspan class="value">Amman, Jordan</tspan></tspan>
-<tspan x="390" y="110"><tspan class="cc">. </tspan><tspan class="key">Role</tspan>:<tspan class="cc"> ............................... </tspan><tspan class="value">Full-Stack Developer</tspan></tspan>
-<tspan x="390" y="130"><tspan class="cc">. </tspan><tspan class="key">Focus</tspan>:<tspan class="cc"> ....................... </tspan><tspan class="value">Web apps, APIs &amp; AI tooling</tspan></tspan>
+<tspan x="390" y="70"><tspan class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ....................... </tspan><tspan class="value">9 years, 5 months, 18 days</tspan></tspan>
+<tspan x="390" y="90"><tspan class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ....................... </tspan><tspan class="value">Tarjama Group, Amman, Jordan</tspan></tspan>
+<tspan x="390" y="110"><tspan class="cc">. </tspan><tspan class="key">Role</tspan>:<tspan class="cc"> ................................... </tspan><tspan class="value">Engineering Lead</tspan></tspan>
+<tspan x="390" y="130"><tspan class="cc">. </tspan><tspan class="key">Focus</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">Distributed systems &amp; agentic AI</tspan></tspan>
 <tspan x="390" y="150"></tspan>
-<tspan x="390" y="170"><tspan class="cc">. </tspan><tspan class="key">Languages.Code</tspan>:<tspan class="cc"> ...... </tspan><tspan class="value">PHP, Python, TypeScript, JavaScript</tspan></tspan>
-<tspan x="390" y="190"><tspan class="cc">. </tspan><tspan class="key">Languages.Frameworks</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">Laravel, React, Vue.js, Node.js</tspan></tspan>
-<tspan x="390" y="210"><tspan class="cc">. </tspan><tspan class="key">Languages.Data</tspan>:<tspan class="cc"> ............................. </tspan><tspan class="value">MySQL, Redis</tspan></tspan>
-<tspan x="390" y="230"><tspan class="cc">. </tspan><tspan class="key">AI</tspan>:<tspan class="cc"> ............................. </tspan><tspan class="value">LLM agents, Whisper, OCR</tspan></tspan>
-<tspan x="390" y="250"></tspan>
-<tspan x="390" y="270">- Contact ——————————————————————————————————————————————————</tspan>
-<tspan x="390" y="290"><tspan class="cc">. </tspan><tspan class="key">Website</tspan>:<tspan class="cc"> .................................... </tspan><tspan class="value">eloustah.com</tspan></tspan>
-<tspan x="390" y="310"><tspan class="cc">. </tspan><tspan class="key">GitHub</tspan>:<tspan class="cc"> ............................ </tspan><tspan class="value">github.com/mohmmedwee</tspan></tspan>
-<tspan x="390" y="330"></tspan>
-<tspan x="390" y="350">- GitHub Stats —————————————————————————————————————————————</tspan>
-<tspan x="390" y="370"><tspan class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> ................................................ </tspan><tspan class="value">33</tspan></tspan>
-<tspan x="390" y="390"><tspan class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ............................................. </tspan><tspan class="value">242</tspan></tspan>
-<tspan x="390" y="410"><tspan class="cc">. </tspan><tspan class="key">Contributions (past year)</tspan>:<tspan class="cc"> ............................ </tspan><tspan class="value">93</tspan></tspan>
-<tspan x="390" y="430"><tspan class="cc">. </tspan><tspan class="key">Followers</tspan>:<tspan class="cc"> ............................................. </tspan><tspan class="value">2</tspan></tspan>
+<tspan x="390" y="170"><tspan class="cc">. </tspan><tspan class="key">Languages.Code</tspan>:<tspan class="cc"> ...... </tspan><tspan class="value">Python, PHP, JavaScript, TypeScript</tspan></tspan>
+<tspan x="390" y="190"><tspan class="cc">. </tspan><tspan class="key">Languages.Frameworks</tspan>:<tspan class="cc"> .. </tspan><tspan class="value">Laravel, FastAPI, Django, Node.js</tspan></tspan>
+<tspan x="390" y="210"><tspan class="cc">. </tspan><tspan class="key">Cloud</tspan>:<tspan class="cc"> .............. </tspan><tspan class="value">Azure (AKS), AWS, Kubernetes, Docker</tspan></tspan>
+<tspan x="390" y="230"><tspan class="cc">. </tspan><tspan class="key">Data</tspan>:<tspan class="cc"> ... </tspan><tspan class="value">MySQL, PostgreSQL, MongoDB, Redis, Elasticsearch</tspan></tspan>
+<tspan x="390" y="250"><tspan class="cc">. </tspan><tspan class="key">AI</tspan>:<tspan class="cc"> .............. </tspan><tspan class="value">LangChain, CrewAI, RAG, LLM agents, NMT</tspan></tspan>
+<tspan x="390" y="270"><tspan class="cc">. </tspan><tspan class="key">Security</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">STRIDE, OAuth 2.0 / SSO, WAF, VAPT</tspan></tspan>
+<tspan x="390" y="290"></tspan>
+<tspan x="390" y="310">- Contact ——————————————————————————————————————————————————</tspan>
+<tspan x="390" y="330"><tspan class="cc">. </tspan><tspan class="key">Email</tspan>:<tspan class="cc"> ................................ </tspan><tspan class="value">eloustah@gmail.com</tspan></tspan>
+<tspan x="390" y="350"><tspan class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> .......................... </tspan><tspan class="value">linkedin.com/in/ostah</tspan></tspan>
+<tspan x="390" y="370"><tspan class="cc">. </tspan><tspan class="key">Website</tspan>:<tspan class="cc"> .................................... </tspan><tspan class="value">eloustah.com</tspan></tspan>
+<tspan x="390" y="390"></tspan>
+<tspan x="390" y="410">- GitHub Stats —————————————————————————————————————————————</tspan>
+<tspan x="390" y="430"><tspan class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> ................................................ </tspan><tspan class="value">33</tspan></tspan>
+<tspan x="390" y="450"><tspan class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ............................................. </tspan><tspan class="value">242</tspan></tspan>
+<tspan x="390" y="470"><tspan class="cc">. </tspan><tspan class="key">Contributions (past year)</tspan>:<tspan class="cc"> ............................ </tspan><tspan class="value">93</tspan></tspan>
+<tspan x="390" y="490"><tspan class="cc">. </tspan><tspan class="key">Followers</tspan>:<tspan class="cc"> ............................................. </tspan><tspan class="value">2</tspan></tspan>
 </text>
 </svg>

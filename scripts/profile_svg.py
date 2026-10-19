@@ -19,6 +19,7 @@ from xml.sax.saxutils import escape
 ROOT = Path(__file__).resolve().parent.parent
 ASSETS = ROOT / "assets"
 USER = os.environ.get("USER_NAME", "mohmmedwee")
+CAREER_START = dt.date(2017, 5, 1)  # first engineering role (Mawaqaa)
 WIDTH = 60  # characters in the right-hand column
 try:
     from zoneinfo import ZoneInfo
@@ -29,21 +30,24 @@ except Exception:  # tzdata missing: Jordan is fixed UTC+3
 # None = blank line, ("-", title) = section header, (key, value) = dotted row.
 # "{name}" values are filled from the fetched stats.
 PROFILE = [
-    ("@", "mohmmedwee@eloustah"),
+    ("@", "alostah@tarjama"),
     ("OS", "macOS, Linux"),
     ("Uptime", "{uptime}"),
-    ("Host", "Amman, Jordan"),
-    ("Role", "Full-Stack Developer"),
-    ("Focus", "Web apps, APIs & AI tooling"),
+    ("Host", "Tarjama Group, Amman, Jordan"),
+    ("Role", "Engineering Lead"),
+    ("Focus", "Distributed systems & agentic AI"),
     None,
-    ("Languages.Code", "PHP, Python, TypeScript, JavaScript"),
-    ("Languages.Frameworks", "Laravel, React, Vue.js, Node.js"),
-    ("Languages.Data", "MySQL, Redis"),
-    ("AI", "LLM agents, Whisper, OCR"),
+    ("Languages.Code", "Python, PHP, JavaScript, TypeScript"),
+    ("Languages.Frameworks", "Laravel, FastAPI, Django, Node.js"),
+    ("Cloud", "Azure (AKS), AWS, Kubernetes, Docker"),
+    ("Data", "MySQL, PostgreSQL, MongoDB, Redis, Elasticsearch"),
+    ("AI", "LangChain, CrewAI, RAG, LLM agents, NMT"),
+    ("Security", "STRIDE, OAuth 2.0 / SSO, WAF, VAPT"),
     None,
     ("-", "Contact"),
+    ("Email", "eloustah@gmail.com"),
+    ("LinkedIn", "linkedin.com/in/ostah"),
     ("Website", "eloustah.com"),
-    ("GitHub", "github.com/mohmmedwee"),
     None,
     ("-", "GitHub Stats"),
     ("Repos", "{repos}"),
@@ -323,7 +327,7 @@ def main():
     today = dt.datetime.now(LOCAL_TZ).date()
     year_ago = (today - dt.timedelta(days=365)).isoformat()
     values = {
-        "uptime": uptime(dt.date.fromisoformat(stats["created"]), today),
+        "uptime": uptime(CAREER_START, today),
         "repos": f"{stats['repos']:,}",
         "stars": f"{stats['stars']:,}",
         "contributed": f"{stats['contributed']:,}",
