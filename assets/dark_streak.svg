@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">
+<rect x="0.5" y="0.5" width="494" height="194" rx="4.5" fill="#161b22" stroke="#30363d"/>
+<line x1="165" y1="28" x2="165" y2="170" stroke="#30363d"/>
+<line x1="330" y1="28" x2="330" y2="170" stroke="#30363d"/>
+<text x="82.5" y="79" text-anchor="middle" font-size="28" font-weight="700" fill="#c9d1d9">278</text>
+<text x="82.5" y="120" text-anchor="middle" font-size="14" font-weight="400" fill="#c9d1d9">Total Contributions</text>
+<text x="82.5" y="145" text-anchor="middle" font-size="12" font-weight="400" fill="#8b949e">Nov 21, 2014 - Present</text>
+<circle cx="247.5" cy="71" r="40" fill="none" stroke="#fb8c00" stroke-width="5"/>
+<text x="247.5" y="81" text-anchor="middle" font-size="28" font-weight="700" fill="#c9d1d9">0</text>
+<text x="247.5" y="140" text-anchor="middle" font-size="14" font-weight="700" fill="#fb8c00">Current Streak</text>
+<text x="247.5" y="165" text-anchor="middle" font-size="12" font-weight="400" fill="#8b949e"></text>
+<text x="412.5" y="79" text-anchor="middle" font-size="28" font-weight="700" fill="#c9d1d9">6</text>
+<text x="412.5" y="120" text-anchor="middle" font-size="14" font-weight="400" fill="#c9d1d9">Longest Streak</text>
+<text x="412.5" y="145" text-anchor="middle" font-size="12" font-weight="400" fill="#8b949e">May 21 - May 26</text>
+</svg>

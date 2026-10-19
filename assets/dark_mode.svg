@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,Menlo,monospace" width="985px" height="550px" font-size="16px">
+<style>
+@font-face {src: local('Consolas'), local('Consolas Bold'); font-family: 'ConsolasFallback'; font-display: swap; -webkit-size-adjust: 109%; size-adjust: 109%;}
+.key {fill: #ffa657;} .value {fill: #a5d6ff;} .cc {fill: #616e7f;}
+text, tspan {white-space: pre;}
+</style>
+<rect width="985px" height="550px" fill="#161b22" rx="15"/>
+<text x="15" y="30" fill="#c9d1d9">
+<tspan x="15" y="30">                 ,:;;:</tspan>
+<tspan x="15" y="50">           |l%MMMMMMMMM%l:</tspan>
+<tspan x="15" y="70">         lMMMMMMMMM%%%%%MMj</tspan>
+<tspan x="15" y="90">        !MMMMMMM%%%%%MMM%%Mk</tspan>
+<tspan x="15" y="110">        jM%%%%KKKkllllkkKKKM%:</tspan>
+<tspan x="15" y="130">       ;M%kji!;::,,:,`,:;|il%M</tspan>
+<tspan x="15" y="150">       jKkl|!;:````````,:;;ilK!</tspan>
+<tspan x="15" y="170">       iKkj|!!,`''''````:;!|ik!</tspan>
+<tspan x="15" y="190">       ;KjjkKKkli!:,,;ilkkkljj|</tspan>
+<tspan x="15" y="210">       |l|jlkij|!i|`:;;!|!i!!ii,</tspan>
+<tspan x="15" y="230">       !ii|;;:`,;|;`,;;```,,:||</tspan>
+<tspan x="15" y="250">        iji!:,,:i|:``:!:````:ij</tspan>
+<tspan x="15" y="270">        jkj|!:,,!ij;!i!,```,;jl</tspan>
+<tspan x="15" y="290">        ,Kkj!;!ilK%jj%klj!,:iKi</tspan>
+<tspan x="15" y="310">         jM%liKKkkli|ijjkK|lkM,</tspan>
+<tspan x="15" y="330">        !MMMMKKi!|ijlj!,;lk%MMl</tspan>
+<tspan x="15" y="350">     :!jMMMMMMM%l|!|!;;|k%MMMMMKi;</tspan>
+<tspan x="15" y="370">|jkK%MMMMM%KMMMMM%KKKkKMMMM%KM%%%M%ki;</tspan>
+<tspan x="15" y="390">%%M%%%%%MMMkkKMMMMMMMMMMM%lj%M%%%K%%%%</tspan>
+<tspan x="15" y="410">%KKKK%%%%%MKlljjkK%%%Kkj|!iK%%%%%%KKKK</tspan>
+<tspan x="15" y="430">%%%%%M%Kk%%%li|;,,:::,``,|k%%%%%%K%%%K</tspan>
+<tspan x="15" y="450">%%%MMMM%K%%%%j;::,,,,,,,!lK%%%%%%%MMM%</tspan>
+<tspan x="15" y="470">%%%%%%MMMM%%%%j:`,,,,,:;!k%%%%%%%%%%MM</tspan>
+<tspan x="15" y="490">%%%%%%%%%MMM%%%K|:`:!!|!kM%%%%%%%K%%MM</tspan>
+<tspan x="15" y="510">%%%%%%%%%%%%MMMMMl!!jjiKM%%%%KK%%%KK%M</tspan>
+</text>
+<text x="390" y="30" fill="#c9d1d9">
+<tspan x="390" y="30">mohmmedwee@eloustah ————————————————————————————————————————</tspan>
+<tspan x="390" y="50"><tspan class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ......................................... </tspan><tspan class="value">macOS, Linux</tspan></tspan>
+<tspan x="390" y="70"><tspan class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">11 years, 10 months, 28 days</tspan></tspan>
+<tspan x="390" y="90"><tspan class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ...................................... </tspan><tspan class="value">Amman, Jordan</tspan></tspan>
+<tspan x="390" y="110"><tspan class="cc">. </tspan><tspan class="key">Role</tspan>:<tspan class="cc"> ............................... </tspan><tspan class="value">Full-Stack Developer</tspan></tspan>
+<tspan x="390" y="130"><tspan class="cc">. </tspan><tspan class="key">Focus</tspan>:<tspan class="cc"> ....................... </tspan><tspan class="value">Web apps, APIs &amp; AI tooling</tspan></tspan>
+<tspan x="390" y="150"></tspan>
+<tspan x="390" y="170"><tspan class="cc">. </tspan><tspan class="key">Languages.Code</tspan>:<tspan class="cc"> ...... </tspan><tspan class="value">PHP, Python, TypeScript, JavaScript</tspan></tspan>
+<tspan x="390" y="190"><tspan class="cc">. </tspan><tspan class="key">Languages.Frameworks</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">Laravel, React, Vue.js, Node.js</tspan></tspan>
+<tspan x="390" y="210"><tspan class="cc">. </tspan><tspan class="key">Languages.Data</tspan>:<tspan class="cc"> ............................. </tspan><tspan class="value">MySQL, Redis</tspan></tspan>
+<tspan x="390" y="230"><tspan class="cc">. </tspan><tspan class="key">AI</tspan>:<tspan class="cc"> ............................. </tspan><tspan class="value">LLM agents, Whisper, OCR</tspan></tspan>
+<tspan x="390" y="250"></tspan>
+<tspan x="390" y="270">- Contact ——————————————————————————————————————————————————</tspan>
+<tspan x="390" y="290"><tspan class="cc">. </tspan><tspan class="key">Website</tspan>:<tspan class="cc"> .................................... </tspan><tspan class="value">eloustah.com</tspan></tspan>
+<tspan x="390" y="310"><tspan class="cc">. </tspan><tspan class="key">GitHub</tspan>:<tspan class="cc"> ............................ </tspan><tspan class="value">github.com/mohmmedwee</tspan></tspan>
+<tspan x="390" y="330"></tspan>
+<tspan x="390" y="350">- GitHub Stats —————————————————————————————————————————————</tspan>
+<tspan x="390" y="370"><tspan class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> ................................................ </tspan><tspan class="value">33</tspan></tspan>
+<tspan x="390" y="390"><tspan class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ............................................. </tspan><tspan class="value">242</tspan></tspan>
+<tspan x="390" y="410"><tspan class="cc">. </tspan><tspan class="key">Contributions (past year)</tspan>:<tspan class="cc"> ............................ </tspan><tspan class="value">93</tspan></tspan>
+<tspan x="390" y="430"><tspan class="cc">. </tspan><tspan class="key">Followers</tspan>:<tspan class="cc"> ............................................. </tspan><tspan class="value">2</tspan></tspan>
+</text>
+</svg>
