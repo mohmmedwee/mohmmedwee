@@ -4,6 +4,7 @@
   dark_mode.svg / light_mode.svg            neofetch-style card with the ASCII portrait
   dark_languages.svg / light_languages.svg  most used languages
   dark_streak.svg / light_streak.svg        contribution streak
+  dark_calendar.svg / light_calendar.svg    contribution calendar for the past year
 
 Stats come from the GitHub GraphQL API when ACCESS_TOKEN is set; otherwise the
 last values saved in assets/stats.json are reused so the cards never break.
@@ -58,9 +59,11 @@ PROFILE = [
 
 THEMES = {
     "dark": dict(bg="#161b22", border="#30363d", text="#c9d1d9", muted="#8b949e", key="#ffa657",
-                 value="#a5d6ff", dots="#616e7f", title="#58a6ff", accent="#fb8c00"),
+                 value="#a5d6ff", dots="#616e7f", title="#58a6ff", accent="#fb8c00",
+                 levels=("#21262d", "#0e4429", "#006d32", "#26a641", "#39d353")),
     "light": dict(bg="#f6f8fa", border="#d0d7de", text="#24292f", muted="#57606a", key="#953800",
-                  value="#0a3069", dots="#c2cfde", title="#0969da", accent="#bc4c00"),
+                  value="#0a3069", dots="#c2cfde", title="#0969da", accent="#bc4c00",
+                  levels=("#ebedf0", "#9be9a8", "#40c463", "#30a14e", "#216e39")),
 }
 SANS = "'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif"
 
@@ -322,6 +325,41 @@ def render_streak(theme, stats, today):
     return "\n".join(out) + "\n"
 
 
+def render_calendar(theme, days, today):
+    t = THEMES[theme]
+    step, size, left, top = 14, 11, 55, 72
+    start = today - dt.timedelta(days=(today.weekday() + 1) % 7 + 52 * 7)  # Sunday, 52 weeks back
+    span = [start + dt.timedelta(days=i) for i in range((today - start).days + 1)]
+    counts = {d: days.get(d.isoformat(), 0) for d in span}
+    peak = max(counts.values()) or 1
+    total = sum(counts.values())
+    width, height = left + 53 * step + 25, 215
+    out = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" font-family="{SANS}">',
+        f'<rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="4.5" fill="{t["bg"]}" stroke="{t["border"]}"/>',
+        f'<text x="25" y="35" font-size="18" font-weight="600" fill="{t["title"]}">{total:,} contributions in the last year</text>',
+    ]
+    for row, name in ((1, "Mon"), (3, "Wed"), (5, "Fri")):
+        out.append(f'<text x="25" y="{top + row * step + 9}" font-size="10" fill="{t["muted"]}">{name}</text>')
+    for d in span:
+        col, row = (d - start).days // 7, (d - start).days % 7
+        if d.day == 1 and col < 52:
+            out.append(f'<text x="{left + col * step}" y="{top - 8}" font-size="10" fill="{t["muted"]}">{d:%b}</text>')
+        n = counts[d]
+        level = 0 if not n else min(4, -(-4 * n // peak))
+        out.append(
+            f'<rect x="{left + col * step}" y="{top + row * step}" width="{size}" height="{size}" rx="2" '
+            f'fill="{t["levels"][level]}"><title>{n} on {d:%b %-d, %Y}</title></rect>'
+        )
+    legend_x = width - 25 - 5 * step - 60
+    out.append(f'<text x="{legend_x}" y="{top + 7 * step + 22}" font-size="10" fill="{t["muted"]}">Less</text>')
+    for i, color in enumerate(t["levels"]):
+        out.append(f'<rect x="{legend_x + 28 + i * step}" y="{top + 7 * step + 13}" width="{size}" height="{size}" rx="2" fill="{color}"/>')
+    out.append(f'<text x="{legend_x + 32 + 5 * step}" y="{top + 7 * step + 22}" font-size="10" fill="{t["muted"]}">More</text>')
+    out.append("</svg>")
+    return "\n".join(out) + "\n"
+
+
 def main():
     stats = load_stats()
     today = dt.datetime.now(LOCAL_TZ).date()
@@ -341,6 +379,7 @@ def main():
         (ASSETS / f"{prefix}_mode.svg").write_text(render_card(theme, values, art))
         (ASSETS / f"{prefix}_languages.svg").write_text(render_languages(theme, stats["languages"]))
         (ASSETS / f"{prefix}_streak.svg").write_text(render_streak(theme, stats, today))
+        (ASSETS / f"{prefix}_calendar.svg").write_text(render_calendar(theme, stats["days"], today))
 
 
 if __name__ == "__main__":

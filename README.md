@@ -31,7 +31,10 @@ government platforms across the GCC and Levant.
 </details>
 
 ## 📊 GitHub Stats
-![Contribution calendar](metrics.calendar.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohmmedwee/mohmmedwee/main/assets/dark_calendar.svg">
+  <img alt="Contribution calendar" src="https://raw.githubusercontent.com/mohmmedwee/mohmmedwee/main/assets/light_calendar.svg">
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohmmedwee/mohmmedwee/main/assets/snake-dark.svg">
@@ -42,8 +45,6 @@ government platforms across the GCC and Levant.
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohmmedwee/mohmmedwee/main/assets/dark_languages.svg">
   <img alt="Most used languages" src="https://raw.githubusercontent.com/mohmmedwee/mohmmedwee/main/assets/light_languages.svg">
 </picture>
-
-![GitHub metrics](metrics.general.svg)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohmmedwee/mohmmedwee/main/assets/dark_streak.svg">

@@ -13,10 +13,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Profile, language and streak cards
+      - name: Profile, language, streak and calendar cards
         run: python3 scripts/profile_svg.py
         env:
-          ACCESS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          # The built-in token reads public data; add a METRICS_TOKEN secret to include private contributions.
+          ACCESS_TOKEN: ${{ secrets.METRICS_TOKEN || github.token }}
           USER_NAME: mohmmedwee
 
       - name: Contribution snake
@@ -35,30 +36,3 @@ jobs:
           git diff --cached --quiet && exit 0
           git commit -m "Update profile cards and snake [skip ci]"
           git push
-
-  metrics:
-    needs: profile
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - name: Contribution calendar
-        uses: lowlighter/metrics@v3.34
-        with:
-          filename: metrics.calendar.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: mohmmedwee
-          base: ""
-          config_timezone: Asia/Amman
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-
-      - name: Profile overview
-        uses: lowlighter/metrics@v3.34
-        with:
-          filename: metrics.general.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: mohmmedwee
-          base: header, activity, community
-          config_timezone: Asia/Amman
-          repositories_affiliations: owner
