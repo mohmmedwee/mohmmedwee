@@ -6,9 +6,9 @@
 <text x="82.5" y="120" text-anchor="middle" font-size="14" font-weight="400" fill="#24292f">Total Contributions</text>
 <text x="82.5" y="145" text-anchor="middle" font-size="12" font-weight="400" fill="#57606a">Nov 21, 2014 - Present</text>
 <circle cx="247.5" cy="71" r="40" fill="none" stroke="#bc4c00" stroke-width="5"/>
-<text x="247.5" y="81" text-anchor="middle" font-size="28" font-weight="700" fill="#24292f">1</text>
+<text x="247.5" y="81" text-anchor="middle" font-size="28" font-weight="700" fill="#24292f">0</text>
 <text x="247.5" y="140" text-anchor="middle" font-size="14" font-weight="700" fill="#bc4c00">Current Streak</text>
-<text x="247.5" y="165" text-anchor="middle" font-size="12" font-weight="400" fill="#57606a">Oct 19</text>
+<text x="247.5" y="165" text-anchor="middle" font-size="12" font-weight="400" fill="#57606a"></text>
 <text x="412.5" y="79" text-anchor="middle" font-size="28" font-weight="700" fill="#24292f">6</text>
 <text x="412.5" y="120" text-anchor="middle" font-size="14" font-weight="400" fill="#24292f">Longest Streak</text>
 <text x="412.5" y="145" text-anchor="middle" font-size="12" font-weight="400" fill="#57606a">May 21 - May 26</text>
