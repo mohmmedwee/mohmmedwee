@@ -3,27 +3,27 @@
 <text x="25" y="35" font-size="18" font-weight="600" fill="#58a6ff">Most Used Languages</text>
 <clipPath id="bar"><rect x="25" y="55" width="445" height="8" rx="4"/></clipPath>
 <g clip-path="url(#bar)">
-<rect x="25.00" y="55" width="239.91" height="8" fill="#4F5D95"/>
-<rect x="264.41" y="55" width="85.94" height="8" fill="#f1e05a"/>
-<rect x="349.85" y="55" width="37.44" height="8" fill="#663399"/>
-<rect x="386.78" y="55" width="32.98" height="8" fill="#3178c6"/>
-<rect x="419.27" y="55" width="31.20" height="8" fill="#3572A5"/>
-<rect x="449.97" y="55" width="18.30" height="8" fill="#e34c26"/>
-<rect x="467.77" y="55" width="1.39" height="8" fill="#89e051"/>
-<rect x="468.66" y="55" width="1.39" height="8" fill="#41b883"/>
+<rect x="25.00" y="55" width="238.13" height="8" fill="#4F5D95"/>
+<rect x="262.63" y="55" width="85.50" height="8" fill="#f1e05a"/>
+<rect x="347.62" y="55" width="37.44" height="8" fill="#663399"/>
+<rect x="384.56" y="55" width="33.43" height="8" fill="#3178c6"/>
+<rect x="417.49" y="55" width="33.43" height="8" fill="#3572A5"/>
+<rect x="450.42" y="55" width="17.86" height="8" fill="#e34c26"/>
+<rect x="467.78" y="55" width="1.39" height="8" fill="#89e051"/>
+<rect x="468.67" y="55" width="1.39" height="8" fill="#41b883"/>
 </g>
 <circle cx="30" cy="86" r="5" fill="#4F5D95"/>
-<text x="43" y="90" font-size="13" fill="#c9d1d9">PHP <tspan fill="#8b949e">53.8%</tspan></text>
+<text x="43" y="90" font-size="13" fill="#c9d1d9">PHP <tspan fill="#8b949e">53.4%</tspan></text>
 <circle cx="30" cy="111" r="5" fill="#f1e05a"/>
-<text x="43" y="115" font-size="13" fill="#c9d1d9">JavaScript <tspan fill="#8b949e">19.2%</tspan></text>
+<text x="43" y="115" font-size="13" fill="#c9d1d9">JavaScript <tspan fill="#8b949e">19.1%</tspan></text>
 <circle cx="30" cy="136" r="5" fill="#663399"/>
 <text x="43" y="140" font-size="13" fill="#c9d1d9">CSS <tspan fill="#8b949e">8.3%</tspan></text>
 <circle cx="30" cy="161" r="5" fill="#3178c6"/>
-<text x="43" y="165" font-size="13" fill="#c9d1d9">TypeScript <tspan fill="#8b949e">7.3%</tspan></text>
+<text x="43" y="165" font-size="13" fill="#c9d1d9">TypeScript <tspan fill="#8b949e">7.4%</tspan></text>
 <circle cx="265" cy="86" r="5" fill="#3572A5"/>
-<text x="278" y="90" font-size="13" fill="#c9d1d9">Python <tspan fill="#8b949e">6.9%</tspan></text>
+<text x="278" y="90" font-size="13" fill="#c9d1d9">Python <tspan fill="#8b949e">7.4%</tspan></text>
 <circle cx="265" cy="111" r="5" fill="#e34c26"/>
-<text x="278" y="115" font-size="13" fill="#c9d1d9">HTML <tspan fill="#8b949e">4.0%</tspan></text>
+<text x="278" y="115" font-size="13" fill="#c9d1d9">HTML <tspan fill="#8b949e">3.9%</tspan></text>
 <circle cx="265" cy="136" r="5" fill="#89e051"/>
 <text x="278" y="140" font-size="13" fill="#c9d1d9">Shell <tspan fill="#8b949e">0.2%</tspan></text>
 <circle cx="265" cy="161" r="5" fill="#41b883"/>

@@ -2,7 +2,7 @@
 <rect x="0.5" y="0.5" width="494" height="194" rx="4.5" fill="#f6f8fa" stroke="#d0d7de"/>
 <line x1="165" y1="28" x2="165" y2="170" stroke="#d0d7de"/>
 <line x1="330" y1="28" x2="330" y2="170" stroke="#d0d7de"/>
-<text x="82.5" y="79" text-anchor="middle" font-size="28" font-weight="700" fill="#24292f">279</text>
+<text x="82.5" y="79" text-anchor="middle" font-size="28" font-weight="700" fill="#24292f">280</text>
 <text x="82.5" y="120" text-anchor="middle" font-size="14" font-weight="400" fill="#24292f">Total Contributions</text>
 <text x="82.5" y="145" text-anchor="middle" font-size="12" font-weight="400" fill="#57606a">Nov 21, 2014 - Present</text>
 <circle cx="247.5" cy="71" r="40" fill="none" stroke="#bc4c00" stroke-width="5"/>
