@@ -36,7 +36,7 @@ text, tspan {white-space: pre;}
 <text x="390" y="30" fill="#c9d1d9">
 <tspan x="390" y="30">alostah@tarjama ————————————————————————————————————————————</tspan>
 <tspan x="390" y="50"><tspan class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ......................................... </tspan><tspan class="value">macOS, Linux</tspan></tspan>
-<tspan x="390" y="70"><tspan class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ....................... </tspan><tspan class="value">9 years, 5 months, 25 days</tspan></tspan>
+<tspan x="390" y="70"><tspan class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ....................... </tspan><tspan class="value">9 years, 5 months, 26 days</tspan></tspan>
 <tspan x="390" y="90"><tspan class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ....................... </tspan><tspan class="value">Tarjama Group, Amman, Jordan</tspan></tspan>
 <tspan x="390" y="110"><tspan class="cc">. </tspan><tspan class="key">Role</tspan>:<tspan class="cc"> ................................... </tspan><tspan class="value">Engineering Lead</tspan></tspan>
 <tspan x="390" y="130"><tspan class="cc">. </tspan><tspan class="key">Focus</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">Distributed systems &amp; agentic AI</tspan></tspan>
@@ -57,6 +57,6 @@ text, tspan {white-space: pre;}
 <tspan x="390" y="430"><tspan class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> ................................................ </tspan><tspan class="value">35</tspan></tspan>
 <tspan x="390" y="450"><tspan class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ............................................. </tspan><tspan class="value">242</tspan></tspan>
 <tspan x="390" y="470"><tspan class="cc">. </tspan><tspan class="key">Contributions (past year)</tspan>:<tspan class="cc"> ............................ </tspan><tspan class="value">95</tspan></tspan>
-<tspan x="390" y="490"><tspan class="cc">. </tspan><tspan class="key">Followers</tspan>:<tspan class="cc"> ............................................. </tspan><tspan class="value">2</tspan></tspan>
+<tspan x="390" y="490"><tspan class="cc">. </tspan><tspan class="key">Followers</tspan>:<tspan class="cc"> ............................................. </tspan><tspan class="value">1</tspan></tspan>
 </text>
 </svg>
